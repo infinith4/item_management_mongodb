@@ -30,8 +30,8 @@ var server = http.createServer(app);
 var mongoose = require('mongoose');
 
 //localhostのitem_managementのデータベースに接続。
-//var db = mongoose.connect('mongodb://infinith4:aaaaa@kahana.mongohq.com:10086/app27622139');
-var db = mongoose.connect('mongodb://localhost/item_management');
+var db = mongoose.connect('mongodb://infinith4:aaaaa@kahana.mongohq.com:10037/app27635386');
+//var db = mongoose.connect('mongodb://localhost/item_management');
 //スキーマを宣言。
 var ItemSchema = new mongoose.Schema({
 	text:{type:String},
